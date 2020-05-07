@@ -29,7 +29,7 @@ export default {
     },
     only: {
       type: Array,
-      default: [],
+      default: () => [],
     }
   },
   render(h, { props, data, children }) {
